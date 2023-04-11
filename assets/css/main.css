@@ -96,7 +96,20 @@ input, select, textarea {
 .larger {
 	font-size: xx-large;
 }
+.large {
+	font-size: large;
+}
+ .cool-text {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
 
+.testimonials {
+	background-color: red;
+	height: 100px;
+}
+.no-space {
+	line-height: 1.2;
+}
 /* Basic */
 
 @-ms-viewport {
@@ -203,6 +216,10 @@ em, i {
 p {
 	text-align: justify;
 	margin: 0 0 2rem 0;
+}
+/* pale background */
+.pale {
+	background-color: lavender;
 }
 /* subtitles */
 .subtitle {
