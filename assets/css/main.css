@@ -3142,13 +3142,13 @@ padding: 0.75rem 0.75rem;
 
 table th {
 font-family: "Source Sans Pro", Helvetica, sans-serif;
-font-size: 0.8rem;
+font-size: 1rem;
 font-weight: 900;
 letter-spacing: 0.075em;
 line-height: 1.5;
 padding: 0 0.75rem 0.75rem 0.75rem;
 text-align: left;
-text-transform: uppercase;
+text-transform: Normal;
 }
 
 @media screen and (max-width: 980px) {
@@ -3177,9 +3177,9 @@ table.alt tbody tr td {
 	border-top-width: 0;
 }
 
-	table.alt tbody tr td:first-child {
-		border-left-width: 1px;
-	}
+table.alt tbody tr td:first-child {
+	border-left-width: 1px;
+}
 
 table.alt tbody tr:first-child td {
 	border-top-width: 1px;
@@ -3197,12 +3197,12 @@ table tbody tr {
 	border-color: #eeeeee;
 }
 
-	table tbody tr:nth-child(2n + 1) {
-		background-color: rgba(220, 220, 220, 0.25);
-	}
+table tbody tr:nth-child(2n + 1) {
+	background-color: rgba(220, 220, 220, 0.25);
+}
 
 table th {
-	color: #212931;
+	color: rgb(0, 113, 128);
 }
 
 table thead {
