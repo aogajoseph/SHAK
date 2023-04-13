@@ -94,7 +94,7 @@ input, select, textarea {
 }
 
 .larger {
-	font-size: xx-large;
+	font-size: xxx-large;
 }
 .large {
 	font-size: large;
@@ -306,7 +306,7 @@ h1 {
 	font-size: 4rem;
 	line-height: 1.1;
 	margin: 0 0 2rem 0;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 h2 {
