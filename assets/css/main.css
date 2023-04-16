@@ -104,8 +104,11 @@ input, select, textarea {
  }
 
 .testimonials {
-	background-color: red;
-	height: 100px;
+	display: flex;
+	justify-content: center;
+}
+.testimonial {
+	width: 16rem;
 }
 .no-space {
 	line-height: 1.2;
@@ -1668,7 +1671,6 @@ hr {
 		box-sizing: border-box;
 		align-items: stretch;
 	}
-
 	.row > * {
 		box-sizing: border-box;
 	}
@@ -4853,4 +4855,14 @@ z-index: 2;
 		visibility: visible;
 	}
 
+}
+@media screen and (max-width: 980px) {
+	.testimonials {
+		display: flex;
+		justify-content: center;
+	}
+	.testimonial {
+		margin: auto;
+		width: 30rem;
+	}
 }
