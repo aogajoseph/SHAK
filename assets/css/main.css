@@ -287,7 +287,6 @@ p {
 /* folic acid section */
 .folic-acid {
 	padding: 20px 30px;
-	background-image: url("/images/4.jpg");
 	background-repeat: no-repeat;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -3435,7 +3434,6 @@ body.is-preload #wrapper.fade-in:before {
 	text-align: center;
 	z-index: 1;
 	min-height: 100vh;
-	background-image: url("/images/2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
