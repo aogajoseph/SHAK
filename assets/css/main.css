@@ -94,10 +94,10 @@ input, select, textarea {
 }
 
 .larger {
-	font-size: xxx-large;
+	font-size: 2.5rem;
 }
 .large {
-	font-size: large;
+	font-size: 1.8rem;
 }
  .cool-text {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -2583,18 +2583,22 @@ input[type="radio"] + label:before {
 
 ::-webkit-input-placeholder {
 	opacity: 1.0;
+	font-style: italic;
 }
 
 :-moz-placeholder {
 	opacity: 1.0;
+	font-style: italic;
 }
 
 ::-moz-placeholder {
 	opacity: 1.0;
+	font-style: italic;
 }
 
 :-ms-input-placeholder {
 	opacity: 1.0;
+	font-style: italic;
 }
 
 label {
@@ -4861,6 +4865,6 @@ z-index: 2;
 	}
 	.testimonial {
 		margin: auto;
-		width: 30rem;
+		width: 20rem;
 	}
 }
