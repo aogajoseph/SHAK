@@ -3126,6 +3126,13 @@ header.major .date:before, header.major .date:after {
 	border-top-color: #eeeeee;
 }
 
+/* back to top */
+.back-to-top {
+	height: 50px;
+	width: 100%;
+	background-color: red;
+}
+
 /* Table */
 
 .table-wrapper {
@@ -4865,6 +4872,6 @@ z-index: 2;
 	}
 	.testimonial {
 		margin: auto;
-		width: 20rem;
+		width: 100%;
 	}
 }
