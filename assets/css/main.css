@@ -3126,13 +3126,6 @@ header.major .date:before, header.major .date:after {
 	border-top-color: #eeeeee;
 }
 
-/* back to top */
-.back-to-top {
-	height: 50px;
-	width: 100%;
-	background-color: red;
-}
-
 /* Table */
 
 .table-wrapper {
@@ -3331,14 +3324,14 @@ table.alt tbody tr td {
 }
 
 .pagination a:hover {
-	color: yellow !important;
-	border-color: yellow;
+	color: blue !important;
+	border-color: black;
 	z-index: 1;
 }
 
 .pagination a:hover + a,
 .pagination a:hover + span {
-	border-left-color: yellow;
+	border-left-color: rgb(101, 101, 202);
 }
 
 .pagination a.active {
