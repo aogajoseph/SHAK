@@ -4867,7 +4867,7 @@ z-index: 2;
 	.testimonials {
 		display: flex;
 		justify-content: center;
-		gap: 10px;
+		gap: 20px;
 	}
 	.testimonial {
 		margin: auto;
