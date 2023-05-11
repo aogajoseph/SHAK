@@ -110,6 +110,10 @@ input, select, textarea {
 .testimonial {
 	width: 16rem;
 }
+.testimony {
+	border-left: none;
+	padding-left: 0%;
+}
 .no-space {
 	line-height: 1.2;
 }
@@ -4863,9 +4867,11 @@ z-index: 2;
 	.testimonials {
 		display: flex;
 		justify-content: center;
+		gap: 10px;
 	}
 	.testimonial {
 		margin: auto;
-		width: 100%;
+		padding: 0%;
+		width:100%;
 	}
 }
