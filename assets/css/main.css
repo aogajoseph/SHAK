@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
 /*
-	SHAK Nairobi website
-	Synergy Apps Inc.
+	shak nairobi website
+	kamili empire inc.
 */
 
 html, body, div, span, applet, object,
@@ -113,8 +113,9 @@ input, select, textarea {
 .no-space {
 	line-height: 1.2;
 }
-.kpi-numbers {
-	font-size: 2.3rem;
+.dotted-border {
+	border-right: 2px solid rgb(238, 226, 226);
+	border-style: dotted;
 }
 /* Basic */
 
@@ -4119,7 +4120,7 @@ z-index: 2;
 	color: #270202;
 }
 #footer h3, #footer label {
-	color: rgb(48, 44, 44);
+	color: rgb(20, 10, 103);
 }
 #footer blockquote {
 	border-left-color: #e2e2e2;
@@ -4565,7 +4566,7 @@ z-index: 2;
 
 #copyright a:hover {
 	border-bottom-color: transparent;
-	color: blue !important;
+	color: grey !important;
 }
 
 #copyright strong, #copyright b {
@@ -4590,7 +4591,7 @@ z-index: 2;
 }
 
 #copyright a {
-	color: darkslategrey;
+	color: blue;
 }
 
 #copyright ul {
