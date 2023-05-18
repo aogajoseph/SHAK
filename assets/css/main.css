@@ -2623,7 +2623,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-	border-color: yellow;
+	border-color: rgb(17, 0, 255);
 }
 
 select {
