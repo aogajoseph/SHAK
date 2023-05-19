@@ -289,13 +289,23 @@ p {
 	margin-right: auto;
 	display: block;
 }
-/* folic acid section */
+/* folic acid section background */
 .folic-acid {
 	padding: 20px 30px;
 	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+}
+/* partners section background */
+.partners {
+	padding: 0%;
+	margin: auto;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;	
+}
+.partners-li {
+	list-style: inside;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -410,13 +420,13 @@ input, select, textarea {
 }
 
 a {
-	color: #0f79e2;
+	color: rgb(0, 140, 255);
 	border-bottom-color: transparent;
 }
 
 a:hover {
 	border-bottom-color: transparent;
-	color: grey !important;
+	color: rgb(117, 0, 146) !important;
 }
 
 strong, b {
