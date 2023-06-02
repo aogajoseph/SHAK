@@ -271,6 +271,11 @@ p {
 .medium {
 	font-size: medium;
 }
+.custom-font {
+	font-size: 1.5rem;
+	color: rgb(0, 53, 88);
+	text-decoration: underline;
+}
 /* layout */
 .left {
 	text-align: left;
