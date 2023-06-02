@@ -4886,7 +4886,9 @@ z-index: 2;
 	}
 
 }
-@media screen and (max-width: 980px) {
+
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+
 	.testimonials {
 		display: flex;
 		justify-content: center;
@@ -4897,4 +4899,33 @@ z-index: 2;
 		padding: 0%;
 		width:100%;
 	}
+
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+	.testimonials {
+		display: flex;
+		justify-content: center;
+		gap: 2rem;
+	}
+	.testimonial {
+		margin: auto;
+		padding: 0%;
+		width:100%;
+	}
+
+}
+
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+	.testimonials {
+		display: flex;
+		justify-content: center;
+		gap: 2rem;
+	}
+	.testimonial {
+		margin: auto;
+		padding: 0%;
+		width:100%;
+	}
+	}
