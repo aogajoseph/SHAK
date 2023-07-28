@@ -3066,6 +3066,8 @@ header {
 }
 
 header > .date {
+	font-weight: 700;
+	text-decoration: underline;
 	display: block;
 	font-size: 0.8rem;
 	height: 1;
@@ -4292,7 +4294,7 @@ z-index: 2;
 	color: rgb(3, 3, 3);
 }
 #footer a.fb {
-	color: blue;
+	color: #3b5998;
 }
 #footer a.inst {
 	color: rgb(220, 43, 226);
@@ -4304,7 +4306,7 @@ z-index: 2;
 	color: #0e76a8;
 }
 #footer ul.icons.alt li .fb:before {
-	box-shadow: inset 0 0 0 2px blue;
+	box-shadow: inset 0 0 0 2px #3b5998;
 }
 #footer ul.icons.alt li .inst:before {
 	box-shadow: inset 0 0 0 2px  rgb(220, 43, 226);
@@ -4670,7 +4672,7 @@ z-index: 2;
 
 /* Nav Panel */
 #nav a.fb {
-	color: blue;
+	color: #3b5998;
 }
 #nav a.inst {
 	color: rgb(220, 43, 226);
