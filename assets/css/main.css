@@ -99,6 +99,9 @@ input, select, textarea {
 .large {
 	font-size: 1.8rem;
 }
+.underlined {
+	text-decoration: underline;
+}
  .cool-text {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
@@ -269,7 +272,7 @@ p {
 	font-size: x-small;
 }
 .medium {
-	font-size: medium;
+	font-size: 1.3em;
 }
 .custom-font {
 	font-size: 1.5rem;
